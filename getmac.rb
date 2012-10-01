@@ -1,1 +1,1 @@
-@a = "hello world!"
+@a = "`ifconfig wlan0 | grep -o -E '([[:xdigit:]]{1,2}:){5}[[:xdigit:]]{1,2}'`"
