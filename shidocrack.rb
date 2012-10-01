@@ -1,4 +1,6 @@
+require 'getmac'
+
 Shoes.app :width => 750, :height => 550 do
-  require 'getmac'
+  @a = get_a_mac
   alert @a
 end
